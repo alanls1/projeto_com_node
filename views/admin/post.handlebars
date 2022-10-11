@@ -1,0 +1,25 @@
+<h2>Lista de postagens:</h2>
+
+<hr>
+
+<a href="/admin/posts/add">
+    <button class="btn btn-success">Nova postagem</button>
+</a>
+
+{{#each posts}}
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4>{{title}}</h4>
+                <p>Descrição: {{description}}</p>
+                <small>Data: {{createdAt}}</small><br>
+                <small>Categoria: {{category}}</small><br>
+                <a href="/admin/post/edit/{{id}}" class="mt-4"> 
+                    <button class="btn btn-success mt-3">Editar postagem</button>
+                <a>            
+            </div>
+        </div>
+{{else}}
+
+ 
+{{/each}}
+   
