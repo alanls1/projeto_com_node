@@ -1,2 +1,5 @@
 # projeto_com_node
-Praticando os métodos CRUD
+Praticando os métodos CRUD...
+
+
+Tecnologias utilizadas:
