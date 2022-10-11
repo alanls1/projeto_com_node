@@ -1,7 +1,9 @@
 # projeto_com_node
 Praticando os métodos CRUD...
 
-
+<p align="end">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 Tecnologias utilizadas:
 
 <div>
